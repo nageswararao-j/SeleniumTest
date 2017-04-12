@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.basic.setup.testng.NewTestWithTestNG"/>
+      <class name="com.basic.setup.SampleUnitTest"/>
       <class name="com.basic.setup.BasicSetupStepDefs"/>
     </classes>
   </test> <!-- Test -->
