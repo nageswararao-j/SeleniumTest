@@ -25,6 +25,7 @@ public class BasicSetupStepDefs {
 	
 	@Before
 	public void setUp(){
+		System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\selenium-server-standalone\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		homePage = new HomePage(driver);
