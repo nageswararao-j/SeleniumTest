@@ -17,6 +17,7 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\selenium-server-standalone\\chromedriver.exe");
 	}
 
 	public void search(String searchText) {
